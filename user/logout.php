@@ -1,0 +1,1 @@
+<?phpsession_start();if(isset($_SESSION['sesid'])){require('data.php');$ui=$_SESSION['sesid'];$status='inactive';$sql="UPDATE session SET status='$status' WHERE sesid='$ui'";$result =mysqli_query($link,$sql);if($result)	{			session_destroy();		header('location:../index.php');	}}else{header('location:../index.php');}?>
