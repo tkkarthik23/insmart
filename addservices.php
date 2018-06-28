@@ -1,5 +1,5 @@
 <?php
-require('essential.php
+require('essential.php karthik
 ?>
 <!DOCTYPE html>
 <html lang="en">
